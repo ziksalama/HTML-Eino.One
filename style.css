@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'CooperHewittBold';
+    box-sizing: border-box;
+}
+body{
+    background: #181823;
+    color: #E9F8F9;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Graphics/alex-knight-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #181823;
+}
+.container {
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #181823;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}    
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #E9F8F9;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #537FE7;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+.portrait-container {
+    width: 500px;
+    height: 667px;
+    background-image: url(Graphics/portait.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto;
+    border: 10px solid #537FE7;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  .portrait-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  
+  .project-info {
+    background-color: #181823;
+    color: #C0EEF2;
+  }
+  
+  .project {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .project img {
+    margin-right: 20px;
+    max-width: 50%;
+  }
+  
+  .project-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-details h3 {
+    font-size: 28px;
+    margin: 0 0 20px;
+  }
+  
+  .project-details p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .project-details .button {
+    background-color: #537FE7;
+    border: none;
+    color: #E9F8F9;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .project-details .button:hover {
+    background-color: #C0EEF2;
+    color: #181823;
+  }
+  
